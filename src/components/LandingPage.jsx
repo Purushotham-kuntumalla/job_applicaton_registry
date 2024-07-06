@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './LandingPage.css'; // Assuming you will style the components in this CSS file
@@ -161,9 +162,7 @@ const LandingPage = () => {
           </div>
           <div className="btnViewAll">
           <button className='
-          view-all' onClick={handleNavigation}>View All <FaArrowRight style={{
-            textAlign:'center'
-          }}/></button>
+          view-all' onClick={handleNavigation}><span>View All</span> </button>
           </div>
           
 </section>
